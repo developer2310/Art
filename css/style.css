@@ -3,7 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+    width: 15px;
+  
+  }
+::-webkit-scrollbar-track {
+    background: linear-gradient(red,blue);
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(blue,red);
+    border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(120 100% 10% / 1);
+}
+/* scrollbar-thumb {
+    background-color: #301306;
+    border-radius: 0 0 50px 50px;
+  } */
 .header {
     width: 100%;
     min-height: 100vh;
